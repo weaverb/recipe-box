@@ -88,6 +88,8 @@ flutter analyze
 
 ## Maintaining the app
 
+Contributors and automation should follow [AGENTS.md](AGENTS.md) for repository layout, **Semantic Versioning** (`pubspec.yaml`), **Conventional Commits**, and release expectations.
+
 ### Drift code generation
 
 The database schema lives in [`lib/data/app_database.dart`](lib/data/app_database.dart). Drift generates [`lib/data/app_database.g.dart`](lib/data/app_database.g.dart); that file should not be edited by hand.
